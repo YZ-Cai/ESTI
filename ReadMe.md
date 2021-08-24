@@ -1,12 +1,12 @@
 # Source Codes of ESTI
 
-
+<br/>
 
 ESTI is an algorithm for answering k-hop  reachability queries over general directed graphs, link of the paper:
 
 [ESTI: Efficient k-Hop Reachability Querying over Large General Directed Graphs | SpringerLink](https://link.springer.com/chapter/10.1007%2F978-3-030-73216-5_6)
 
-
+<br/>
 
 ## 1. Input Graph
 
@@ -28,7 +28,7 @@ The first line is the number of vertices (N), while the second line is the numbe
 
 The follows N lines are the out-degree and out-neighbors of each vertice. For example, the third line is for vertex "0", and its out-degree is 2, its out-neighbors are "1" and "5".
 
-
+<br/>
 
 ## 2. Generate Queries
 
@@ -56,7 +56,7 @@ In query file, each line represents a random generated query.
 
 Each line contains 4 numbers: the first is source vertex, the second is target vertex, the third one is their shortest distance (ground truth for judge the result, -1 for unreachable pair), and the last one is the hop number for query (generated randomly follows the distance distribution of reachable pairs).
 
-
+<br/>
 
 ## 3. ESTI
 
