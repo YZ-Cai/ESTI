@@ -41,7 +41,9 @@ generate_queries -data graph -outputQueryFile -queryNumber
 ```
 
 graph: 					   input graph file name
+
 outputQueryFile: 	output query file
+
 queryNumber: 		the number of randomly generated queries
 
 **Example:**
@@ -54,7 +56,7 @@ queryNumber: 		the number of randomly generated queries
 
 In query file, each line represents a random generated query. 
 
-Each line contains 4 numbers: the first is source vertex, the second is target vertex, the third one is their shortest distance (ground truth for judge the result, -1 for unreachable pair), and the last one is the hop number for query (generated randomly follows the distance distribution of reachable pairs).
+Each line contains 4 numbers: the first is source vertex, the second is target vertex, the third one is their shortest distance (for judging the result, -1 for unreachable pair), and the last one is the hop number for query (generated randomly follows the distance distribution of reachable pairs).
 
 <br/>
 
