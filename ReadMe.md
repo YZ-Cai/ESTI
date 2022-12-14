@@ -2,7 +2,7 @@
 
 <br/>
 
-ESTI is an algorithm for answering k-hop  reachability queries over general directed graphs, link of the paper:
+Extended Spanning Tree Index (ESTI) is an algorithm for answering k-hop reachability queries over general directed graphs, link of the paper:
 
 [ESTI: Efficient k-Hop Reachability Querying over Large General Directed Graphs | SpringerLink](https://link.springer.com/chapter/10.1007%2F978-3-030-73216-5_6)
 
@@ -91,8 +91,3 @@ ulimit -s 2097152
 **Running Results:**
 
 the running results including index time, index size and query time are stored in file "results/ESTI_details.csv".
-
-
-
-
-
